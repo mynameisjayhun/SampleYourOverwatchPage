@@ -1,0 +1,337 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+body {
+  width: 1280px;
+  height: auto;
+  margin: 0 auto;
+  color: white;
+  background: #17181c;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 1280px;
+  height: 50px;
+  background: #18191d;
+  border-bottom: 1px solid white;
+}
+
+#overwatchicon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+#overwatchbanner {
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  margin-left: -4px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 13px;
+}
+
+.dropbtn {
+  background-color: #18191d;
+  color: #29e02c;
+  margin-left: 62.9px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+  background-color: #6b6b6b;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #18191d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #6b6b6b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#socialmediaicons {
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  margin-left: 70.5px;
+}
+
+#youtube {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+#twitter {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: -4px;
+}
+
+#twitch {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: -3px;
+}
+
+#patreon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: -4px;
+}
+
+main {
+  width: 1180px;
+  height: 400px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.firstletter {
+  color: #ffa721;
+  text-decoration: line-through;
+}
+
+h1 {
+  margin-left: 100px;
+  margin-top: 50px;
+  color: white;
+}
+
+#headlinevideo {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+#headlinedesc {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: black;
+  width: 400px;
+  height: 325px;
+  overflow: scroll;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #c0c9d6;
+}
+
+h2 {
+  text-align: center;
+  background-color: #17181c;
+  color: white;
+  margin-bottom: -16px;
+}
+
+article {
+  background-color: #17181c;
+  width: 1280px;
+  height: 460px;
+}
+
+figure {
+  display: inline-block;
+  vertical-align: top;
+  background-color: black;
+  width: 358px;
+  height: 330px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 10px;
+  background-color: black;
+  width: 358px;
+  height: 40px;
+  overflow: scroll;
+  line-height: 1.5;
+}
+
+.recentuploads {
+  width: 358px;
+  height: 200px;
+}
+
+.desc {
+  width: 358px;
+  height: 100px;
+  text-align: center;
+  overflow: scroll;
+  color: #c0c9d6;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 1280px;
+  height: 50px;
+  background: black;
+  border-top: 1px solid white;
+}
+
+#sponsoredby {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 490px;
+  font-size: 12px;
+  color: white;
+}
+
+#razer {
+  height: 50px;
+  width: auto;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 465px) {
+    body {
+      height: 1550px;
+      width: 455px;
+    }
+
+    header {
+      height: 90px;
+      width: 455px;
+    }
+
+    #overwatchicon {
+      margin-left: 50px;
+    }
+
+    nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+
+    .dropbtn {
+      margin-left: 0px;
+      font-size: 12px;
+    }
+
+    .dropb {
+      margin-left: 6px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #18191d;
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 2px 6px;
+      text-decoration: none;
+      display: block;
+      font-size: 12px;
+    }
+
+    #socialmediaicons{
+      margin-left: 5px;
+      border: 1px solid white;
+      height: 25px;
+    }
+
+    #youtube, #twitter, #twitch, #patreon  {
+      width: 25px;
+      height: 25px;
+    }
+
+    main {
+      display: inline-block;
+      vertical-align: top;
+      background-color: black;
+      width: 358px;
+      height: 330px;
+      margin-top: 100px;
+      margin-left: 50px;
+    }
+
+    h1 {
+      background-color: black;
+      width: 358px;
+      height: 40px;
+      font-size: 20px;
+      margin-left: 0px;
+      margin-top: 0px;
+      color: white;
+      text-align: center;
+      overflow: scroll;
+    }
+
+    #headlinevideo {
+      width: 358px;
+      height: 200px;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+
+    #headlinedesc {
+      width: 358px;
+      height: 100px;
+      text-align: center;
+      overflow: scroll;
+      color: #c0c9d6;
+      font-size: 16px;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+
+    h2 {
+      display: none;
+    }
+
+    figure {
+      display: block;
+    }
+
+    footer #sponsoredby {
+      margin-left: 75px;
+    }
+
+}
